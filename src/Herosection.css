@@ -1,0 +1,29 @@
+.HeroSection{
+    width: 550px;
+    display: flex;
+    flex-direction:column;
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.HeroSection>img{
+    width: 395px;
+    height: 232px;
+    margin-top: 100px;
+    align-self: center;
+}
+.description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    max-width: 395px;
+}
+.description>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 110%;
+/* or 18px */
+}
